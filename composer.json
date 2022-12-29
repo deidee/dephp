@@ -1,0 +1,21 @@
+{
+    "name": "deidee/dephp",
+    "description": "Helpers voor php.",
+    "type": "library",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Deidee\\Dephp\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "ACJ",
+            "email": "gitlab@acjs.net"
+        }
+    ],
+    "require": {}
+}
