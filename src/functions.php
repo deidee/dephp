@@ -1,6 +1,20 @@
 <?php
 declare(strict_types=1);
 
+if(!function_exists('__return_false')) {
+    function __return_false(): bool
+    {
+        return false;
+    }
+}
+
+if(!function_exists('__return_true')) {
+    function __return_true(): bool
+    {
+        return true;
+    }
+}
+
 if(!function_exists('h')) {
     function h($text = ''): string
     {
