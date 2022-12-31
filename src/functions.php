@@ -16,7 +16,7 @@ if(!function_exists('__return_true')) {
 }
 
 if(!function_exists('h')) {
-    function h($text = ''): string
+    function h($text = ''): mixed
     {
         return htmlspecialchars($text);
     }
